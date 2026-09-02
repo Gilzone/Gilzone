@@ -40,7 +40,7 @@ I specialize in **hardware reverse-engineering, embedded Linux, edge AI optimiza
       </p>
       <ul>
         <li>⚡ <b>1-Click Installer:</b> Automated device detection, bootloader driver setup, and SCP synchronization.</li>
-        <li>🌐 <b>On-Device Neural Translator:</b> 100% offline Bergamot/Marian NMT WASM translator with embedded English ↔ Spanish weights.</li>
+        <li>🌐 <b>On-Device Neural Translator:</b> 100% offline Bergamot/Marian NMT WASM edge-AI translator with direct-disk loading (&lt;0.2s), instant bidirectional English ↔ Spanish swapping, and hardware-debounced touch keyboard.</li>
         <li>🎮 <b>23 Games:</b> Unbundled assets dropping HTML game load times by 95% (20s &rarr; &lt;1s).</li>
         <li>🖥️ <b>KolibriOS x86 VM:</b> Touchpad mouse emulation and custom on-screen virtual keyboard.</li>
         <li>🎙️ <b>ALSA Dual-Link Audio:</b> Bypassed wake-word daemon locks to enable local voice memos.</li>
