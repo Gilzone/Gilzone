@@ -32,6 +32,11 @@ I specialize in **hardware reverse-engineering, embedded Linux, and edge AI opti
     <td width="50%" valign="top">
       <h3>🏎️ <a href="https://github.com/Gilzone/carthing-apps">Spotify Car Thing — Standalone OS Suite</a></h3>
       <p><em>Turned the discontinued Spotify Car Thing into an independent offline handheld console, e-reader, voice recorder, and x86 virtual PC with zero server/host PC dependencies.</em></p>
+      <p align="center">
+        <a href="https://github.com/Gilzone/carthing-apps">
+          <img src="https://raw.githubusercontent.com/Gilzone/carthing-apps/main/docs/screenshots/launcher_games.png" width="100%" alt="Car Thing 3D Launcher Preview" style="border-radius: 8px; border: 1px solid #334155;" />
+        </a>
+      </p>
       <ul>
         <li>⚡ <b>1-Click Installer:</b> Automated device detection, bootloader driver setup, and SCP synchronization.</li>
         <li>🎮 <b>23 Games:</b> Unbundled assets dropping HTML game load times by 95% (20s &rarr; &lt;1s).</li>
@@ -48,6 +53,11 @@ I specialize in **hardware reverse-engineering, embedded Linux, and edge AI opti
     <td width="50%" valign="top">
       <h3>🤖 <a href="https://github.com/Gilzone/Installing-a-LLM-on-Raspberry-Pi-Zero-2-W">Edge LLMs on a $15 Pi Zero 2 W</a></h3>
       <p><em>Architectural guide and benchmark suite proving generative LLMs can run locally and privately on a $15 board with only 512MB of RAM.</em></p>
+      <p align="center">
+        <a href="https://github.com/Gilzone/Installing-a-LLM-on-Raspberry-Pi-Zero-2-W">
+          <img src="https://raw.githubusercontent.com/Gilzone/Installing-a-LLM-on-Raspberry-Pi-Zero-2-W/main/docs/terminal_demo.svg" width="100%" alt="Pi Zero 2 W LLM Terminal Demo" style="border-radius: 8px; border: 1px solid #334155;" />
+        </a>
+      </p>
       <ul>
         <li>📊 <b>Memory Budgeting:</b> Precision OS stripping keeping base Linux idle at ~45 MB RAM.</li>
         <li>⚡ <b>Quantized Inference:</b> Running SmolLM2 135M at 3.2–5.5 tokens/sec via Ollama ARM64.</li>
@@ -66,6 +76,11 @@ I specialize in **hardware reverse-engineering, embedded Linux, and edge AI opti
     <td colspan="2" valign="top">
       <h3>💬 <a href="https://github.com/Gilzone/messager">Messager — Ephemeral Room Chat & Standalone Binaries</a></h3>
       <p><em>Lightweight, self-hosted real-time chat with 5-digit room PINs, instant clipboard image sharing, and single-file standalone binaries built for zero-dependency deployment.</em></p>
+      <p align="center">
+        <a href="https://github.com/Gilzone/messager">
+          <img src="https://raw.githubusercontent.com/Gilzone/messager/main/docs/messager_ui.svg" width="100%" alt="Messager UI Preview" style="border-radius: 8px; border: 1px solid #334155;" />
+        </a>
+      </p>
       <p>
         <img src="https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
         <img src="https://img.shields.io/badge/Socket.io-4.x-black?style=flat-square&logo=socketdotio&logoColor=white" />
