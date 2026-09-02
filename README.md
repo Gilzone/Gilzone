@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1DB954,10B981,059669,047857&height=220&section=header&text=Hey%20there,%20I'm%20Gilzone%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Embedded%20Systems%20•%20Edge%20AI%20•%20Hardware%20Preservation%20•%20Systems%20Software&descAlignY=62&descSize=18&descColor=e0e7ff" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1DB954,10B981,059669,047857&height=220&section=header&text=Hey%20there,%20I'm%20Gilzone%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Embedded%20Systems%20•%20Edge%20AI%20•%20Hardware%20Preservation%20•%20Android%20%26%20Systems&descAlignY=62&descSize=18&descColor=e0e7ff" width="100%" alt="Header Banner" />
 </div>
 
 <p align="center">
@@ -17,10 +17,11 @@
 
 ## ⚡ About Me
 
-I specialize in **hardware reverse-engineering, embedded Linux, and edge AI optimization**. My core passion is rescuing deprecated, low-power, and end-of-life electronics (like the Spotify Car Thing and low-cost micro-SBCs) and engineering zero-dependency software that runs **100% locally and offline** directly on the metal.
+I specialize in **hardware reverse-engineering, embedded Linux, edge AI optimization, and lightweight mobile tooling**. My core passion is rescuing deprecated, low-power, and end-of-life electronics (like the Spotify Car Thing and low-cost micro-SBCs) and engineering zero-dependency software that runs **100% locally and offline** directly on the metal.
 
 * 🔭 **Currently Building:** Complete standalone operating environments, custom launchers, and x86 virtualization for embedded ARM devices.
 * 🧠 **Edge AI Focus:** Squeezing quantized LLMs (SmolLM2, Qwen2.5, TinyDolphin) into sub-512MB RAM architectures via kernel swap, zram, and Ollama/llama.cpp tuning.
+* 📱 **Mobile & Tooling:** Building zero-bloat Android runtimes to convert any local HTML/canvas project into immersive native mobile apps.
 * ⚙️ **Systems Philosophy:** Zero host-PC dependencies, zero mandatory cloud servers, and true offline ownership.
 
 ---
@@ -73,19 +74,42 @@ I specialize in **hardware reverse-engineering, embedded Linux, and edge AI opti
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
-      <h3>💬 <a href="https://github.com/Gilzone/messager">Messager — Ephemeral Room Chat & Standalone Binaries</a></h3>
+    <td width="50%" valign="top">
+      <h3>📱 <a href="https://github.com/Gilzone/html-open">HTMLOpen — Fullscreen HTML App Runner</a></h3>
+      <p><em>Zero-bloat (&lt;450 KB) native Android container running any local HTML file, game, or webapp in true immersive fullscreen with universal file permissions.</em></p>
+      <p align="center">
+        <a href="https://github.com/Gilzone/html-open">
+          <img src="https://raw.githubusercontent.com/Gilzone/html-open/main/docs/htmlopen_preview.svg" width="100%" alt="HTMLOpen Preview" style="border-radius: 8px; border: 1px solid #334155;" />
+        </a>
+      </p>
+      <ul>
+        <li>📱 <b>Sticky Immersive Mode:</b> Hides status bar and navigation bar with zero gesture interference.</li>
+        <li>🔓 <b>Universal <code>file://</code> Access:</b> Loads multi-file games, scripts, textures, and WASM.</li>
+        <li>⚡ <b>Pure Native:</b> Zero ads, zero tracking, hardware accelerated, and under 500 KB.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Android-5.0+-3DDC84?style=flat-square&logo=android&logoColor=white" />
+        <img src="https://img.shields.io/badge/APK_Size-~445_KB-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/Language-Java-ED8B00?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💬 <a href="https://github.com/Gilzone/messager">Messager — Real-Time Room Chat</a></h3>
       <p><em>Lightweight, self-hosted real-time chat with 5-digit room PINs, instant clipboard image sharing, and single-file standalone binaries built for zero-dependency deployment.</em></p>
       <p align="center">
         <a href="https://github.com/Gilzone/messager">
           <img src="https://raw.githubusercontent.com/Gilzone/messager/main/docs/messager_ui.svg" width="100%" alt="Messager UI Preview" style="border-radius: 8px; border: 1px solid #334155;" />
         </a>
       </p>
+      <ul>
+        <li>⚡ <b>Socket.io Real-Time:</b> Instant messaging with zero server storage overhead.</li>
+        <li>📦 <b>Standalone Binaries:</b> Packaged with <code>pkg</code> into portable single-file executables.</li>
+        <li>📸 <b>Rich Media:</b> Paste images directly from clipboard (Ctrl+V) or upload photos.</li>
+      </ul>
       <p>
         <img src="https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
         <img src="https://img.shields.io/badge/Socket.io-4.x-black?style=flat-square&logo=socketdotio&logoColor=white" />
         <img src="https://img.shields.io/badge/Packaging-pkg_Binaries-blueviolet?style=flat-square" />
-        <img src="https://img.shields.io/badge/Privacy-Self_Hosted-brightgreen?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -101,7 +125,7 @@ I specialize in **hardware reverse-engineering, embedded Linux, and edge AI opti
       <td align="center" width="25%"><b>Hardware & Embedded</b></td>
       <td align="center" width="25%"><b>Languages & Systems</b></td>
       <td align="center" width="25%"><b>AI & Inference</b></td>
-      <td align="center" width="25%"><b>Web & Tooling</b></td>
+      <td align="center" width="25%"><b>Mobile & Tooling</b></td>
     </tr>
     <tr>
       <td valign="top">
@@ -115,10 +139,10 @@ I specialize in **hardware reverse-engineering, embedded Linux, and edge AI opti
       <td valign="top">
         • Python (3.10+ / Automation)<br>
         • C / C++ (Low-Level Systems)<br>
+        • Java (Android Native SDK)<br>
         • Bash / POSIX Shell<br>
         • PowerShell Core<br>
-        • JavaScript (ESNext / Node.js)<br>
-        • Assembly (x86 / KolibriOS)
+        • JavaScript (ESNext / Node.js)
       </td>
       <td valign="top">
         • Ollama (ARM64 Optimization)<br>
@@ -129,12 +153,12 @@ I specialize in **hardware reverse-engineering, embedded Linux, and edge AI opti
         • TinyML Principles
       </td>
       <td valign="top">
+        • Android Immersive WebView<br>
         • WebAssembly (WASM)<br>
         • Socket.io & WebSockets<br>
         • Express.js<br>
-        • Chrome DevTools Protocol (CDP)<br>
-        • Single-File Packaging (`pkg`)<br>
-        • Git & GitHub CLI Tooling
+        • Standalone Packaging (`pkg`)<br>
+        • Chrome DevTools Protocol (CDP)
       </td>
     </tr>
   </table>
