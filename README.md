@@ -114,6 +114,30 @@ I specialize in **hardware reverse-engineering, embedded Linux, edge AI optimiza
       </p>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" width="100%" valign="top">
+      <h3>🎙️ <a href="https://github.com/Gilzone/pi-zero-voice-ai">Pi Zero Voice AI — 100% Offline Voice Assistant on 512 MB RAM</a></h3>
+      <p><em>Fully localized edge voice AI on a $15 Raspberry Pi Zero 2 W running Whisper.cpp STT, SmolLM2-360M LLM, and Flite TTS inside 512MB RAM with zero swap thrashing.</em></p>
+      <p align="center">
+        <a href="https://github.com/Gilzone/pi-zero-voice-ai">
+          <img src="https://raw.githubusercontent.com/Gilzone/pi-zero-voice-ai/main/assets/terminal_screenshot.png" width="100%" alt="Pi Zero Voice AI Preview" style="border-radius: 8px; border: 1px solid #334155;" />
+        </a>
+      </p>
+      <ul>
+        <li>⚡ <b>Complete Voice Loop:</b> Audio In &rarr; Whisper STT &rarr; SmolLM2-360M LLM &rarr; Flite TTS Speech Out.</li>
+        <li>🧠 <b>512MB RAM Budget:</b> Sequential lifecycle peaking at ~267 MB RAM (0 KB swap thrashing).</li>
+        <li>🎙️ <b>Native 16 kHz Audio:</b> Flite unit-selection eliminating synthetic buzz and resampling delay.</li>
+        <li>📊 <b>100% Factual Accuracy:</b> Benchmark suite with 10 real-world factual questions answered correctly.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Raspberry_Pi-Zero_2_W-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white" />
+        <img src="https://img.shields.io/badge/STT-Whisper.cpp-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/LLM-SmolLM2_360M-orange?style=flat-square" />
+        <img src="https://img.shields.io/badge/TTS-Flite_16kHz-green?style=flat-square" />
+        <img src="https://img.shields.io/badge/RAM-512MB_Zero_Swap-success?style=flat-square" />
+      </p>
+    </td>
+  </tr>
 </table>
 
 ---
